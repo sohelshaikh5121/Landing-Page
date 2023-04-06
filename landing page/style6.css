@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: blanchedalmond;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(120deg,#681414,rgb(0, 0, 0));
+   
+    
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 2em;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.menu a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px 20px;
+    
+}
+
+.menu a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    border-bottom: 2px solid rgb(63, 110, 16);
+    transition: 0.3s linear;
+}
+
+menu a:hover:before{
+    width: 90%;
+}
+
+.regi a{
+    text-decoration: none;
+    
+    font-size: 20px;
+    padding: 10px 20px;
+    transition: 0.3s;
+    background: rgb(255, 255, 255); 
+    border-radius: 0px;
+    color: black;
+
+}
+
+.regi a:hover{
+    background: transparent;
+    border:1px solid  rgb(63, 110, 16);
+}
+
+.h-txt{
+    max-width: 559px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color:black ;
+}
+
+.h-txt h2{
+    font-size: 40px;
+    color: gold;
+}
+
+.h-txt a{
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 33px;
+    background: rgb(255, 255, 255);
+    border-radius: 0px 0px 0px 0px;
+    color: gold;
+}
+.h-txt a:hover{
+    background: transparent;
+    border:1px solid  rgb(63, 110, 16);
+}
+
+.copy-txt{
+    text-align: center;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 100px;
+}
+
